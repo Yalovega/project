@@ -1,0 +1,679 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0px 166px;
+}
+
+.header {
+    background-image: url(img/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-line {
+    justify-content: space-around;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+
+}
+
+.nav-item:hover {
+    color: #FF0000;
+
+}
+
+.cart {
+    position: relative;
+    border-right: 1px solid #FFFFFF;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.cart-img {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.num {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3 linear;
+}
+
+.num:hover {
+    color: #FF0000;
+
+}
+
+.phone-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+
+}
+
+.button:hover {
+    background-color: hsl(27, 74%, 29%);
+    ;
+}
+
+.header-down {
+    position: relative;
+}
+
+.header-title {
+    color: #D67E35;
+    font-family: 'Tinos', serif;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    margin-top: 222px;
+    margin-bottom: 12px;
+}
+
+.header-suptitle {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.header-suptitle:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 127px;
+    left: 56px;
+}
+
+.header-suptitle:before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 127px;
+    left: 285px;
+}
+
+.header-button {
+    background: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 28px;
+    font-size: 14px;
+    width: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-button:hover {
+    background-color: hsl(27, 74%, 29%);
+    ;
+}
+
+.cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 10px 10px 40px 20px #00000014;
+    width: 349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 10px 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.card-title {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #2C2C2C;
+    font-family: Tinos;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-desc {
+    color: #656363;
+    text-align: center;
+    font-family: Tinos;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.last-word {
+    color: #BC9060;
+    font-family: Tinos;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 10px;
+}
+
+.history {
+    margin-top: 166px;
+    padding-bottom: 200px;
+}
+
+.history-title {
+    color: #000;
+    font-family: Tinos;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 444px;
+    text-align: center;
+
+}
+
+.span-hist-title {
+    color: #D67E34;
+    font-family: Tinos;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 444px;
+    text-align: center;
+}
+
+.history-desc {
+    color: #656363;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 444px;
+    text-align: center;
+    margin-top: 21px;
+
+}
+
+.history-number {
+    display: flex;
+    width: 444px;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.number-item {
+    margin-right: 60px;
+    text-align: center;
+    color: #BC9060;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.number-item span {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.history-images {
+    position: relative;
+}
+
+.history-holder {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.images1 {
+    position: absolute;
+    z-index: 0;
+    top: -100px;
+    left: 151px;
+}
+
+.images2 {
+
+    z-index: 999;
+    top: -92px;
+    left: 300px;
+}
+
+.images3 {
+
+    z-index: 999;
+    top: 246px;
+    left: 481px;
+}
+
+.black-block {
+    background-image: url(/img/black_bg.jpg);
+    padding: 80px 0;
+}
+
+.left-title {
+    color: #D67E34;
+    font-family: Tinos;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.left-text {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.right-btn {
+    background: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+
+}
+
+.right-btn:hover {
+    background-color: hsl(27, 74%, 29%);
+    ;
+}
+
+.block-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dishes-title {
+    color: #000;
+    font-family: Tinos;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-top: 132px;
+    margin-bottom: 50px;
+}
+
+.dishes-span {
+    color: #D67E34;
+    font-family: Tinos;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.dishes-content {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: flex-start;
+    margin-bottom: 100px;
+    /* Вирівнюємо по вертикалі по верхньому краю */
+}
+
+.burger {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.burgers-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-right: 50px;
+    margin-left: 0px;
+    font-size: 40px;
+    font-family: Tinos;
+}
+
+.burger-text {
+    text-align: center;
+
+}
+
+.burger-price {
+    color: #D67E34;
+    font-family: Tinos;
+    font-size: 30px;
+}
+
+.menu-bg {
+
+    background-image: url(img/bg-menu.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.menu-title {
+    text-align: center;
+    color: #FFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: Tinos;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 200px;
+}
+
+.card-menu {
+    box-shadow: 10px 10px 40px 20px #00000014;
+    width: 349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 150px 10px;
+}
+
+.card-image-menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+}
+
+.card-title-menu {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #2C2C2C;
+    font-family: Tinos;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.card-desc-menu {
+    color: #656363;
+    text-align: center;
+    font-family: Tinos;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-menu {
+    background: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-size: 14px;
+    width: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+.burger-button {
+    background: #FF7400;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: block;
+    /* Змініть блочний тип елементу */
+    margin-top: 10px;
+    /* Додайте відступ зверху, якщо це потрібно */
+
+}
+
+.burger-button:hover {
+    background-color: hsl(27, 74%, 29%);
+    ;
+}
+
+
+/* RESPONSE */
+
+
+
+
+.gray-background {
+    background: #E5E5E5;
+    /* Колір сірого фону */
+    padding: 50px 0;
+    /* Опціонально, задаємо відступи */
+
+    background-image: url(img/bg-down.png);
+
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.response {
+    padding-top: 105px;
+    text-align: center;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.photo-response {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    /* Змінено значення відступу */
+}
+
+.response-visitor {
+    margin-top: 20px;
+    text-align: center;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.response-name {
+    margin-top: 10px;
+    text-align: center;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.svg-dot {
+    margin-top: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+/* GALERRY */
+
+.galery-title {
+    margin-top: 100px;
+    text-align: center;
+    color: #000;
+    font-family: Tinos;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.galery-span {
+    color: #D67E34;
+    font-family: Tinos;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.photo-galery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    /* Відцентрувати фотографії в ряду по горизонталі */
+}
+
+.galery-item {
+    margin: 0 20px;
+    /* Додати невеликий відступ між фотографіями (за бажанням) */
+}
+
+.photo-galery-second {
+    display: flex;
+    justify-content: center;
+    /* Відцентрувати фотографії в ряду по горизонталі */
+}
+
+.galery-item-second {
+    margin: 0 10px;
+    /* Додати невеликий відступ між фотографіями (за бажанням) */
+}
+
+
+/* PERSONNEL */
+
+.container-personnel {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.personnel-title {
+    margin-bottom: 107px;
+    color: #000;
+    font-family: Tinos;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.span-personnel {
+    color: #D67E34;
+    font-family: Tinos;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.photo-personnel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-person {
+    margin: 0;
+
+}
+
+.ivan {
+    width: 80%;
+    margin-right: 0px;
+
+}
+
+.viktor {
+    width: 80%;
+    margin-left: 0px;
+
+}
+
+
+.nekit {
+    width: 80%;
+    margin-left: 0px;
+
+}
+
+.endbg {
+
+
+    background-image: url(img/ENDBOG.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
